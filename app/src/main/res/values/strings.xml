@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">MyBuleTooth</string>
+    <string name="ble_not_supported">不支持低功耗蓝牙</string>
+    <string name="confirm">确认</string>
+</resources>

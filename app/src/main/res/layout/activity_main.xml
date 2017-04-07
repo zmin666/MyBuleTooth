@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              android:orientation="vertical">
+
+    <Button
+        android:id="@+id/btOpen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="打开蓝牙"/>
+
+    <Button
+        android:id="@+id/btClose"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="关闭蓝牙"/>
+
+    <Button
+        android:id="@+id/btOpenBySystem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="调用系统API打开蓝牙"/>
+
+    <Button
+        android:id="@+id/btDiscoveryDevice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="搜索蓝牙设备"/>
+
+    <Button
+        android:id="@+id/btCancelDiscovery"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="停止搜索蓝牙设备"/>
+
+    <Button
+        android:id="@+id/btDiscoveryBySystem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="调用系统API搜索蓝牙设备"/>
+
+    <Button
+        android:id="@+id/btBoundDrivers"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="连接蓝牙设备"/>
+
+
+    <EditText
+        android:id="@+id/et_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="客户端发送消息"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/btSendMsg_toSangsung"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="发送三星手机"/>
+
+        <Button
+            android:id="@+id/btSendMsg_toXiaomi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="发送小米手机"/>
+
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/tv_showMsg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="显示的消息"
+        android:textSize="20dp"/>
+</LinearLayout>
